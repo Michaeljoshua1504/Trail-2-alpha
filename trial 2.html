@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>trial 2</title>
+</head>
+<body>
+
+<img   width="400px" height="300px" id="img"><br><br>
+
+<script>
+window.addEventListener("keydown", alpha,false);
+function alpha(key){
+  arr=["a.jpg"];
+  var i=document.getElementById("img");
+  switch(key.keyCode){
+   case 65: i.src=arr[0];
+  break;
+}
+}
+</script>
+</body>
+</html>
